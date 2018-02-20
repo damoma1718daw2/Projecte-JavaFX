@@ -2,8 +2,8 @@ package sample.Ingredientes;
 
 import sample.Ingrediente;
 
-public class Cebolla extends Ingrediente {
-    public Cebolla(double precio, String nombre) {
+public abstract class Carne extends Ingrediente {
+    public Carne(double precio, String nombre) {
         super(precio, nombre);
     }
 }

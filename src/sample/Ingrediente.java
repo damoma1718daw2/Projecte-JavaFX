@@ -1,16 +1,17 @@
 package sample;
 
 public abstract class Ingrediente {
-    private int precio;
+    private double precio;
     private String nombre;
     private Unidadmedida unidad_medida;
     public enum Unidadmedida {gramos, litros, unidades, paquetes}
-    public Ingrediente(int precio, String nombre) {
+
+    public Ingrediente(double precio, String nombre) {
         this.precio = precio;
         this.nombre = nombre;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
@@ -18,7 +19,7 @@ public abstract class Ingrediente {
         this.nombre = nombre;
     }
 
-    public int getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 

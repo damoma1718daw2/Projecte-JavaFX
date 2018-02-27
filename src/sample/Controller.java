@@ -8,6 +8,7 @@ public class Controller{
 
     @FXML private TextField tfNombre;
     @FXML private TextField tfDescription;
+    /*
     public void creaReceta(){
         Receta hamburguesa = new Receta( nombre, descripcion); {
         }
@@ -15,5 +16,6 @@ public class Controller{
     @FXML void crear(){
         Receta hamburguesa = new Receta( toString(tfNombre), toString(tfDescription));
     }
+    */
 //
 }
